@@ -86,7 +86,7 @@ def Hello():
     # This function is for when the assistant
     # is called it will say hello and then
     # take query
-    speak("hello Anjali I am your desktop assistant.Tell me how may I help you")
+    speak("hello Aditya I am your Personal assistant.Tell me how may I help you")
 
 
 def Take_query():
@@ -147,7 +147,7 @@ def Take_query():
             speak(result)
 
         elif "tell me your name" in query:
-            speak("I am jarvis. Your deskstop Assistant")
+            speak("I am jarvis. Your Personal Assistant")
 
 
 if __name__ == '__main__':
